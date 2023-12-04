@@ -1,0 +1,1 @@
+# Web service for analyzing public sentiment in social networks using machine learning methods
