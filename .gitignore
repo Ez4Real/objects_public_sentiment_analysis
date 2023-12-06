@@ -23,6 +23,7 @@ MANIFEST
 
 # Environments
 venv/
+.env
 
 # Data
 *.csv
