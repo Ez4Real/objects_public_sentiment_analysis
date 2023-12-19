@@ -1,0 +1,19 @@
+
+footer {
+    background-color: hsla(0, 0%, 0%, 0.103);
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: calc(100vw - 200px);
+}
+  
+.footer-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
