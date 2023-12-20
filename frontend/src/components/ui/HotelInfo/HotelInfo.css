@@ -1,0 +1,25 @@
+.hotel-info {
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.hotel-info-name {
+    padding: 10px 0;
+}
+
+.hotel-info-icon {
+    width: 200px;
+}
+
+.hotel-info-place {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hotel-info-adress {
+    padding: 0 25px;
+}

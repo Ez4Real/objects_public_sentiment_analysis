@@ -15,7 +15,7 @@ const GoogleMapComp = ({ center, children }) => {
 
   return (
     <>
-      <div id="map" style={{ width: "100%", height: "50%" }} />
+      <div id="map" style={{ width: "100%", height: "100%" }} />
       {React.Children.map(children, (child) => {
         if (React.isValidElement(child)) {
           return React.cloneElement(child, { map });

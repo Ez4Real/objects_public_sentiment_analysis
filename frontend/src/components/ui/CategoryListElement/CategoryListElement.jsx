@@ -2,13 +2,13 @@ import { NavLink } from 'react-router-dom';
 import listHotelIcon from '../../../assets/icons/Hotel/listHotelIcon.png';
 import './CategoryListElement.css'
 
-const CategoryListElement = ({ categoryName, name, address, rating }) => {
+const CategoryListElement = ({ name, address, rating }) => {
     const addressArray = address.split(' ');
     const cityCountry = addressArray.slice(-2).join(' ');
     const truncatedAddress = addressArray.slice(0, -2).join(' ');
   
     return (
-      <NavLink to={`/${categoryName}/${name}`}>
+      <NavLink to={`/hotels/${name}`}>
         <div className="list-el-container">
           <img src={listHotelIcon} alt="Hotel Icon" className="list-el-icon" />
           <div className="list-el-info">

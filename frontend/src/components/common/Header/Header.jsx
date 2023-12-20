@@ -10,7 +10,7 @@ const Header = () => {
       <NavLink to={'/'}>
         <h1 className='app-text'>SentimentScope</h1>
       </NavLink>
-      <p className='slogan-text'>Відчуваємо настрій суспільства, <span className="fancy">розуміємо тебе!</span></p>
+      <p className='slogan-text'>Відчуваємо настрій суспільства, <span className="fancy">цінуємо Ваш вибір!</span></p>
     </header>
   );
 };

@@ -18,7 +18,7 @@ function App() {
 		  <Routes>
 			<Route path="/" exact element={<Main />}/>
 			<Route path="/category/:categoryName" element={<Category />}/>
-			<Route path="/:categoryName/:itemName" element={<Item />}/>
+			<Route path="/hotels/:itemName" element={<Item />}/>
 		  </Routes>
 		</main>
 		<Footer/>

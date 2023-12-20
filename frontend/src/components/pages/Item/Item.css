@@ -1,16 +1,16 @@
 .page-container {
     display: flex;
-    height: 100vh;
   }
   
 .left-section, .center-section, .right-section {
     border-radius: 20px;
     background-color: #0dbaf87c;
-    
+    height: 688px;
 }
 
 .left-section, .right-section {
     margin: 0 20px;
+    width: 329.75px;
 }
   
 .left-section {
@@ -19,9 +19,16 @@
 
 .center-section {
     flex: 2;
+    width: 659.5px;
+    overflow: hidden
 }
 
 .right-section {
     flex: 1;
     overflow: hidden
+}
+
+.analyze-container{
+    width: 100%;
+    height: 400px;
 }

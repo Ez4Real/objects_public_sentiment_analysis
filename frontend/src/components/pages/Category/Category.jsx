@@ -1,10 +1,8 @@
 import React from 'react'; 
-import { useParams } from 'react-router-dom';
 import CategoryListElement from '../../ui/CategoryListElement/CategoryListElement';
 import './Category.css'
 
 const Category = () => {
-  const { categoryName } = useParams();
 
   return (
     <> 
