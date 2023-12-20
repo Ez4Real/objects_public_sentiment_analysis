@@ -1,0 +1,11 @@
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.pair-category-cont{
+    width: 16%;
+}

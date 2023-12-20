@@ -1,0 +1,36 @@
+body {
+    background-color: #FFE3BB;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    background: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.content {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    min-height: 608px;
+}

@@ -1,0 +1,44 @@
+
+.list-el-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background: #B4BDFF;
+    border-radius: 25px;
+    width: fit-content;
+  }
+  
+.list-el-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+  
+.list-el-info {
+    display: flex;
+    align-items: center;
+}
+  
+.list-el-name {
+    margin: 0;
+}
+
+.list-el-sf {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.list-el-adress {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.list-el-rating {
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}

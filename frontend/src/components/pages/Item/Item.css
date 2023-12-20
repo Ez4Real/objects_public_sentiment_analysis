@@ -1,0 +1,27 @@
+.page-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+.left-section, .center-section, .right-section {
+    border-radius: 20px;
+    background-color: #0dbaf87c;
+    
+}
+
+.left-section, .right-section {
+    margin: 0 20px;
+}
+  
+.left-section {
+    flex: 1;
+}
+
+.center-section {
+    flex: 2;
+}
+
+.right-section {
+    flex: 1;
+    overflow: hidden
+}
